@@ -1,15 +1,3 @@
-# example values
-
-indexing-settings:
-  sites:
-    - url: https://www.lenta.ru
-      name: Лента.ру
-    - url: https://www.skillbox.ru
-      name: Skillbox
-    - url: https://www.playback.ru
-      name: PlayBack.Ru
-
-
 server:
   port: 8080
 
@@ -26,3 +14,29 @@ spring:
       ddl-auto: update
     show-sql: true
 
+indexing-settings:
+  sites:
+    - url: https://www.lenta.ru
+      name: Лента.ру
+    - url: https://www.skillbox.ru
+      name: Skillbox
+    - url: https://www.playback.ru
+      name: PlayBack.Ru
+    - url: https://www.volochek.life
+      name: Volochek Life
+    - url: https://www.radiomv.ru
+      name: Radio MV
+    - url: https://www.ipfran.ru
+      name: IP Fran
+    - url: https://www.dimonvideo.ru
+      name: Dimon Video
+    - url: https://www.nikoartgallery.com
+      name: Niko Art Gallery
+    - url: https://www.et-cetera.ru/mobile
+      name: Et Cetera Mobile
+    - url: https://www.lutherancathedral.ru
+      name: Lutheran Cathedral
+    - url: https://www.dombulgakova.ru
+      name: Dom Bulgakova
+    - url: https://www.svetlovka.ru
+      name: Svetlovka
